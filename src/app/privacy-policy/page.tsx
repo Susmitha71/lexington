@@ -22,13 +22,13 @@ export default function PrivacyPolicy() {
               </p>
               
               <p className="text-gray-600 mb-6">
-                This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from www.lexcapusa.com (the "Site").
+                This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from www.lexcapusa.com (the &ldquo;Site&rdquo;).
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">PERSONAL INFORMATION WE COLLECT</h2>
               
               <p className="text-gray-600 mb-4">
-                When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as "Device Information."
+                When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as &ldquo;Device Information.&rdquo;
               </p>
 
               <p className="text-gray-600 mb-4">
@@ -37,22 +37,22 @@ export default function PrivacyPolicy() {
 
               <ul className="list-disc pl-6 text-gray-600 mb-6">
                 <li className="mb-2">
-                  <strong>"Cookies"</strong> are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit <a href="http://www.allaboutcookies.org" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">http://www.allaboutcookies.org</a>.
+                  <strong>&ldquo;Cookies&rdquo;</strong> are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit <a href="http://www.allaboutcookies.org" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">http://www.allaboutcookies.org</a>.
                 </li>
                 <li className="mb-2">
-                  <strong>"Log files"</strong> track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
+                  <strong>&ldquo;Log files&rdquo;</strong> track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
                 </li>
                 <li className="mb-2">
-                  <strong>"Web beacons," "tags," and "pixels"</strong> are electronic files used to record information about how you browse the Site.
+                  <strong>&ldquo;Web beacons,&rdquo; &ldquo;tags,&rdquo; and &ldquo;pixels&rdquo;</strong> are electronic files used to record information about how you browse the Site.
                 </li>
               </ul>
 
               <p className="text-gray-600 mb-6">
-                Additionally when you make a purchase or attempt to make a purchase through the Site, we collect certain information from you, including your name, billing address, shipping address, payment information (including credit card numbers, email address, and phone number. We refer to this information as "Order Information."
+                Additionally when you make a purchase or attempt to make a purchase through the Site, we collect certain information from you, including your name, billing address, shipping address, payment information (including credit card numbers, email address, and phone number. We refer to this information as &ldquo;Order Information.&rdquo;
               </p>
 
               <p className="text-gray-600 mb-6">
-                When we talk about "Personal Information" in this Privacy Policy, we are talking both about Device Information and Order Information.
+                When we talk about &ldquo;Personal Information&rdquo; in this Privacy Policy, we are talking both about Device Information and Order Information.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">HOW DO WE USE YOUR PERSONAL INFORMATION?</h2>
@@ -84,7 +84,8 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">BEHAVIOURAL ADVERTISING</h2>
               
               <p className="text-gray-600 mb-4">
-                As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For more information about how targeted advertising works, you can visit the Network Advertising Initiative's ("NAI") educational page at <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work</a>.
+                As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For more information about how targeted advertising works, you can visit the Network Advertising Initiative&apos;s (&ldquo;NAI&rdquo;) educational page at <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work</a>.
+                
               </p>
 
               <p className="text-gray-600 mb-4">You can opt out of targeted advertising by:</p>
@@ -102,13 +103,13 @@ export default function PrivacyPolicy() {
               </ul>
 
               <p className="text-gray-600 mb-6">
-                Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance's opt-out portal at: <a href="http://optout.aboutads.info/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">http://optout.aboutads.info/</a>.
+                Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance&apos;s opt-out portal at: <a href="http://optout.aboutads.info/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">http://optout.aboutads.info/</a>.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">DO NOT TRACK</h2>
               
               <p className="text-gray-600 mb-6">
-                Please note that we do not alter our Site's data collection and use practices when we see a Do Not Track signal from your browser.
+                Please note that we do not alter our Site&apos;s data collection and use practices when we see a Do Not Track signal from your browser.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">DATA RETENTION</h2>

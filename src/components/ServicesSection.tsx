@@ -8,42 +8,42 @@ const ServicesSection = () => {
     {
       icon: Building2,
       title: 'SBA',
-      description: 'An SBA loan is a small-business loan that can help cover startup costs, working capital needs, expansions, real estate purchases, and more. This type of financing is issued by a private lender and backed by the federal government.',
+      description: `An SBA loan is a small-business loan that can help cover startup costs, working capital needs, expansions, real estate purchases, and more. This type of financing is issued by a private lender and backed by the federal government.`,
       color: 'blue',
       features: []
     },
     {
       icon: CreditCard,
       title: 'Merchant Cash Advance',
-      description: 'A Merchant Cash Advance (MCA) gives businesses fast access to working capital based on future credit card or other receivables so they can meet their business needs. This type of funding is an alternative form of financing that provides capital in a lump sum.',
+      description: `A Merchant Cash Advance (MCA) gives businesses fast access to working capital based on future credit card or other receivables so they can meet their business needs. This type of funding is an alternative form of financing that provides capital in a lump sum.`,
       color: 'green',
       features: []
     },
     {
       icon: LineChart,
       title: 'Lines of Credit',
-      description: 'A business line of credit lets a business borrow a certain amount of money and will only charge interest on the amount of money borrowed (just like a credit card).',
+      description: `A business line of credit lets a business borrow a certain amount of money and will only charge interest on the amount of money borrowed (just like a credit card).`,
       color: 'purple',
       features: []
     },
     {
       icon: DollarSign,
       title: 'Term Loans',
-      description: 'A business term loan is a lump sum of money you borrow from a lender, then pay back in intervals – with interest – over a certain period of time. Daily, monthly, or weekly repayments available.',
+      description: `A business term loan is a lump sum of money you borrow from a lender, then pay back in intervals – with interest – over a certain period of time. Daily, monthly, or weekly repayments available.`,
       color: 'orange',
       features: []
     },
     {
       icon: Home,
       title: 'Commercial Real Estate',
-      description: 'Financing the acquisition, renovation, and/or refinance of investment properties on a national scale.',
+      description: `Financing the acquisition, renovation, and/or refinance of investment properties on a national scale.`,
       color: 'red',
       features: []
     },
     {
       icon: Wallet,
       title: 'Business Credit Cards',
-      description: 'A business credit card is typically tailored for anyone that owns a business. No office or employees are required.',
+      description: `A business credit card is typically tailored for anyone that owns a business. No office or employees are required.`,
       color: 'indigo',
       features: []
     }

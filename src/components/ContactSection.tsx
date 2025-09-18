@@ -217,7 +217,7 @@ const ContactSection = () => {
                   <CheckCircle className="w-10 h-10 text-green-600" />
                 </motion.div>
                 <h4 className="text-xl font-bold text-gray-900 mb-2">Application Submitted!</h4>
-                <p className="text-gray-600">We'll review your application and contact you within 24 hours.</p>
+                <p className="text-gray-600">We&apos;ll review your application and contact you within 24 hours.</p>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-8">
@@ -703,7 +703,7 @@ const ContactSection = () => {
                     
                     <div>
                       <label className="block text-sm font-semibold text-gray-700 mb-2">
-                        Driver's License #
+                        Driver&apos;s License #
                       </label>
                       <input
                         type="text"
@@ -711,7 +711,7 @@ const ContactSection = () => {
                         value={formData.driversLicense}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
-                        placeholder="Enter driver's license number"
+                        placeholder="Enter driver&apos;s license number"
                       />
                     </div>
                   </div>
@@ -879,7 +879,7 @@ const ContactSection = () => {
                             
                             <div>
                               <label className="block text-sm font-semibold text-gray-700 mb-2">
-                                Driver's License #
+                                Driver&apos;s License #
                               </label>
                               <input
                                 type="text"
@@ -887,7 +887,7 @@ const ContactSection = () => {
                                 value={formData.secondOwnerDriversLicense}
                                 onChange={handleInputChange}
                                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
-                                placeholder="Enter driver's license number"
+                                placeholder="Enter driver&apos;s license number"
                               />
                             </div>
                           </div>

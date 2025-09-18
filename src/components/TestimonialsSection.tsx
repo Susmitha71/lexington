@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
 
@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
     {
       name: 'Darrell Johnson',
       role: 'Restaurant Owner',
-      content: 'The team at Lexington Capital saved my business in 2022. We were experiencing a ton of supply chain issues and they helped me obtain an MCA loan to cover the costs of paying my employees. I highly recommend them, thank you guys.',
+      content: `The team at Lexington Capital saved my business in 2022. We were experiencing a ton of supply chain issues and they helped me obtain an MCA loan to cover the costs of paying my employees. I highly recommend them, thank you guys.`,
       rating: 5,
       avatar: 'DJ',
       color: 'blue'
@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
     {
       name: 'Christina Kolova',
       role: 'Trucking Business Owner',
-      content: 'Daniel at Lexington Capital is the number one lender in the business. He was answering my phone calls on Sunday and was motivated to help me solve my problems. I am only working with him moving forward.',
+      content: `Daniel at Lexington Capital is the number one lender in the business. He was answering my phone calls on Sunday and was motivated to help me solve my problems. I am only working with him moving forward.`,
       rating: 5,
       avatar: 'CK',
       color: 'green'
@@ -36,9 +36,9 @@ const TestimonialsSection = () => {
     return colors[color as keyof typeof colors] || colors.blue;
   };
 
-  const nextTestimonial = () => {
+  const nextTestimonial = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % testimonials.length);
-  };
+  }, [testimonials.length]);
 
   const prevTestimonial = () => {
     setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
@@ -48,7 +48,7 @@ const TestimonialsSection = () => {
   useEffect(() => {
     const interval = setInterval(nextTestimonial, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [nextTestimonial]);
 
   return (
     <section id="testimonials" className="py-20 bg-white">
@@ -68,7 +68,7 @@ const TestimonialsSection = () => {
             viewport={{ once: true }}
             className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6"
           >
-            Clients' Testimonials
+            Clients&apos; Testimonials
           </motion.h2>
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -113,7 +113,7 @@ const TestimonialsSection = () => {
                     transition={{ duration: 0.6, delay: 0.3 }}
                     className="text-lg lg:text-xl text-gray-700 leading-relaxed mb-8 italic"
                   >
-                    "{testimonials[currentIndex].content}"
+                    &ldquo;{testimonials[currentIndex].content}&rdquo;
                   </motion.p>
 
                   {/* Rating */}
